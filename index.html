@@ -1,11 +1,265 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <title>HW - Productly - flexbox</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header__container">
+        <div class="logo">
+          <a href="" class="logo-link">
+            <img src="images/logo.png" class="logo-img" />
+            <img src="images/logo-text.svg" class="logo-text" />
+          </a>
+        </div>
+
+        <nav class="header__navigation">
+          <ul class="header__navigation-list">
+            <li class="header__navigation-list-item">
+              <a class="nav-link" href="">Product</a>
+            </li>
+            <li class="header__navigation-list-item">
+              <a class="nav-link" href="">Customers</a>
+            </li>
+            <li class="header__navigation-list-item">
+              <a class="nav-link" href="">Pricing</a>
+            </li>
+            <li class="header__navigation-list-item">
+              <a class="nav-link" href="">Resources</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="header__buttons">
+          <button class="button bnt-sign-in">Sign In</button>
+          <button class="button btn-sign-up btn-orange">Sign Up</button>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="hero">
+        <div class="container hero__container">
+          <div class="hero__text-content">
+            <h1 class="hero__title">The Design Thinking superpowers</h1>
+            <p class="hero__description">
+              Tools, tutorials, design and innovation experts, all in one place!
+              The most intuitive way to imagine your next user experience.
+            </p>
+            <button class="button btn-get-started btn-orange">
+              Get started
+            </button>
+          </div>
+          <div class="hero__illustration">
+            <img src="images/hero-illustration.svg" class="illustration" />
+          </div>
+        </div>
+      </section>
+
+      <section class="section-tools">
+        <div class="container section-tools__container">
+          <h2 class="section-tools__title">
+            We design tools to unveil your superpowers
+          </h2>
+          <ul class="section-tools__list">
+            <li class="section-tools__list-item">
+              <img
+                src="images/icon-coursor.svg"
+                class="section-tools__list-item--icon"
+              />
+              <h3 class="section-tools__list-item--h3">First click tests</h3>
+              <span class="section-tools__list-item--span"
+                >While most people enjoy casino gambling</span
+              >
+            </li>
+            <li class="section-tools__list-item">
+              <img
+                src="images/icon-line.svg"
+                class="section-tools__list-item--icon"
+              />
+              <h3 class="section-tools__list-item--h3">Design surveys</h3>
+              <span class="section-tools__list-item--span"
+                >Sports betting, lottery and bingo playing for the fun</span
+              >
+            </li>
+            <li class="section-tools__list-item">
+              <img
+                src="images/icon-heard.svg"
+                class="section-tools__list-item--icon"
+              />
+              <h3 class="section-tools__list-item--h3">Preference tests</h3>
+              <span class="section-tools__list-item--span"
+                >The Myspace page defines the individual</span
+              >
+            </li>
+            <li class="section-tools__list-item">
+              <img
+                src="images/icon-sand-clock.svg"
+                class="section-tools__list-item--icon"
+              />
+              <h3 class="section-tools__list-item--h3">Five second tests</h3>
+              <span class="section-tools__list-item--span"
+                >Personal choices and the overall personality of the
+                person</span
+              >
+            </li>
+          </ul>
+          <button class="button btn-sign-up-now btn-orange">Sign up Now</button>
+        </div>
+      </section>
+
+      <section class="section-design-pro">
+        <div class="container section-design-pro__container">
+          <div class="section-design-pro__content-text">
+            <h3 class="section-design-pro__subtitle">Effortless Validation for</h3>
+            <h2 class="section-design-pro__title">Design Professionals</h2>
+            <p class="section-design-pro__paragraph description">The Myspace page defines the individual, his or her characteristics, traits, personal choices and the overall personality of the person. </p>
+            <h4 class="section-design-pro__h4">Accessory makers</h4>
+            <p class="section-design-pro__paragraph">While most people enjoy casino gambling, sports betting, lottery and bingo playing for the fun</p>
+            <h4 class="section-design-pro__h4">Alterationists</h4>
+            <p class="section-design-pro__paragraph">If you are looking for a new way to promote your business that won’t cost you more money, </p>
+            <h4 class="section-design-pro__h4">Custom Design designers</h4>
+            <p class="section-design-pro__paragraph">If you are looking for a new way to promote your business that won’t cost you more money, </p>
+          </div>
+
+          <div class="section-design-pro__illustration">
+            <img src="images/design-pro-illustration.svg" class="illustration">
+          </div>
+        </div>
+      </section>
+
+      <section class="section-p-managers">
+        <div class="container section-p-managers__container">
+          <div class="section-p-managers__content-text">
+            <h3 class="section-p-managers__subtitle">Easier decision making for</h3>
+            <h2 class="section-p-managers__title">Product Managers</h2>
+            <p class="section-p-managers__paragraph description">The Myspace page defines the individual, his or her characteristics, traits, personal choices and the overall personality of the person. </p>
+            <ul class="section-p-managers__list">
+                <li class="section-p-managers__list-item">
+                    <img src="images/icon-check-mark.svg" class="section-p-managers__list-item--icon">
+                    <p class="section-p-managers__paragraph">Never worry about overpaying for your energy bill again. </p>
+                </li>
+                <li class="section-p-managers__list-item">
+                    <img src="images/icon-check-mark.svg" class="section-p-managers__list-item--icon">
+                    <p class="section-p-managers__paragraph">We will only switch you to energy companies that we trust and will treat you right.</p>
+                </li>
+                <li class="section-p-managers__list-item">
+                    <img src="images/icon-check-mark.svg" class="section-p-managers__list-item--icon">
+                    <p class="section-p-managers__paragraph">We track the markets daily and know where the savings are.</p>
+                </li>
+            </ul>
+          </div>
+
+          <div class="section-p-managers__illustration">
+            <img src="images/pm-illustration.svg" class="illustration">
+          </div>
+        </div>
+      </section>
+
+      <section class="section-marketers">
+        <div class="container section-marketers__container">
+          <div class="section-marketers__content-text">
+            <h3 class="section-marketers__subtitle">Optimisation for</h3>
+            <h2 class="section-marketers__title">Marketers</h2>
+            <p class="section-marketers__paragraph description">Few would argue that, despite the advancements of feminism over the past three decades, women still face a double standard when it comes to their behavior. </p>
+            <h4 class="section-marketers__h4">Accessory makers</h4>
+            <p class="section-marketers__paragraph">While most people enjoy casino gambling, sports betting, lottery and bingo playing for the fun</p>
+            <h4 class="section-marketers__h4">Alterationists</h4>
+            <p class="section-marketers__paragraph">If you are looking for a new way to promote your business that won’t cost you more money, </p>
+            <h4 class="section-marketers__h4">Custom Design designers</h4>
+            <p class="section-marketers__paragraph">If you are looking for a new way to promote your business that won’t cost you more money, </p>
+          </div>
+
+          <div class="section-marketers__illustration">
+            <img src="images/marketers-illustration.svg" class="illustration">
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container footer__container">
+        <div class="logo">
+          <a href="" class="logo-link">
+            <img src="images/logo.png" class="logo-img" />
+            <img src="images/logo-text.svg" class="logo-text" />
+          </a>
+        </div>
+
+        <div class="footer__list-links">
+          <h3 class="footer-title">Quick Links</h3>
+          <ul class="footer-quick-links__list">
+            <li class="footer-quick-links__list-item">
+              <a href="" class="footer-quick-links__list-item--link"
+                >About Us</a
+              >
+            </li>
+            <li class="footer-quick-links__list-item">
+              <a href="" class="footer-quick-links__list-item--link">Blog</a>
+            </li>
+            <li class="footer-quick-links__list-item">
+              <a href="" class="footer-quick-links__list-item--link">Contact</a>
+            </li>
+            <li class="footer-quick-links__list-item">
+              <a href="" class="footer-quick-links__list-item--link">FAQ</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-quick-links__list">
+          <h3 class="footer-title">Legal Stuff</h3>
+          <ul class="footer-legal-stuff__list">
+            <li class="footer-legal-stuff__list-item">
+              <a href="" class="footer-legal-stuff__list-item--link"
+                >Disclaimer</a
+              >
+            </li>
+            <li class="footer-legal-stuff__list-item">
+              <a href="" class="footer-legal-stuff__list-item--link"
+                >Financing</a
+              >
+            </li>
+            <li class="footer-legal-stuff__list-item">
+              <a href="" class="footer-legal-stuff__list-item--link"
+                >Privacy Policy</a
+              >
+            </li>
+            <li class="footer-legal-stuff__list-item">
+              <a href="" class="footer-legal-stuff__list-item--link"
+                >Terms of Service</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__form">
+          <h3 class="footer-title-form">
+            Knowing you're always on the best energy deal
+          </h3>
+          <form action="" method="post" class="footer-form">
+            <label for="tel" class="footer-form__label">
+              <input
+                id="tel"
+                type="tel"
+                name="tel"
+                placeholder="Enter your phone Number"
+                class="footer-form__input"
+              />
+            </label>
+            <button type="submit" class="button btn-sign-up-now btn-orange">
+              Sign up Now
+            </button>
+          </form>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
