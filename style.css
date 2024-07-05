@@ -199,9 +199,10 @@ li {
 /* section--tools */
 .section--tools {
   background-image: url(images/bg.svg);
-  background-size: 100% 510px; 
+  background-size: cover; 
   background-repeat: no-repeat; 
-  padding-bottom: 100px;
+  background-position: bottom center;
+  padding-bottom: 15vh;
 }
 
 .section__container--tools {
